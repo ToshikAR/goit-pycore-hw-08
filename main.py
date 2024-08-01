@@ -4,7 +4,7 @@
 '''
 import pickle
 from contextlib import contextmanager
-from bookPackage import AddressBook, function, ClassModule
+from bookPackage import AddressBook, function
 from pathlib import Path
 
 BOOK_FILE_PATH = Path(r"bookPackage/books.pickle")
